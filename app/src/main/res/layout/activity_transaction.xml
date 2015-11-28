@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	android:paddingBottom="@dimen/activity_vertical_margin"
+	android:paddingLeft="@dimen/activity_horizontal_margin"
+	android:paddingRight="@dimen/activity_horizontal_margin"
+	android:paddingTop="@dimen/activity_vertical_margin"
+	>
+
+	<android.support.v7.widget.CardView
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		xmlns:card_view="http://schemas.android.com/apk/res-auto"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginBottom="8dp"
+		card_view:cardCornerRadius="2dp"
+		card_view:cardUseCompatPadding="true"
+		card_view:cardPreventCornerOverlap="true"
+		>
+
+		<TextView
+			android:id="@+id/total_count"
+			style="@style/Base.TextAppearance.AppCompat.Title"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:background="@color/cardview_dark_background"
+			android:padding="8dp"
+			android:hint="@string/hint_total_count"
+			android:textColor="@android:color/white"
+			android:textColorHint="@android:color/white"
+			/>
+	</android.support.v7.widget.CardView>
+
+	<android.support.v7.widget.RecyclerView
+		android:id="@+id/product_transactions"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		/>
+</LinearLayout>

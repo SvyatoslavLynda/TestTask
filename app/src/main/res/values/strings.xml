@@ -1,3 +1,11 @@
 <resources>
 	<string name="app_name">TestTask</string>
+	<string name="title_products">Products</string>
+	<string name="title_transactions">Transactions</string>
+	<string name="title_transactions_for_sku">Transactions for %1$s</string>
+
+	<string name="hint_transactions_for_sku">%1$s transactions</string>
+	<string name="content_authority" translatable="false">com.svdroid.testtask</string>
+	<string name="hint_total_count">Total:</string>
+	<string name="title_total_count">Total: %1$s%2$,.2f</string>
 </resources>
